@@ -1,0 +1,18 @@
+{
+  "name": "com.weatherelectric.autosave",
+  "version": "1.0.0",
+  "displayName": "Unity Scene Auto Saver",
+  "description": "Automatically saves the currently open scene after a configured amount of time.",
+  "unity": "2021.3",
+  "changelogUrl": "https://raw.githubusercontent.com/WeatherElectric/UnitySceneAutoSave/main/CHANGELOG.md",
+  "licensesUrl": "https://raw.githubusercontent.com/WeatherElectric/UnitySceneAutoSave/main/LICENSE.md",
+  "license": "AML",
+  "keywords": [
+    "scene"
+  ],
+  "author": {
+    "name": "Mabel - Weather Electric",
+	"email" : "mae@weatherelectric.xyz",
+    "url": "https://github.com/WeatherElectric"
+  }
+}
