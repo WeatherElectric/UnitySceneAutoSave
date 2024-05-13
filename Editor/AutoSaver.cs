@@ -15,9 +15,8 @@ namespace WeatherElectric.UnitySceneAutoSave
 
 		static AutoSaver()
 		{
-			EditorApplication.update += Update;
-			
 			Init();
+			EditorApplication.update += Update;
 		}
 		
 		private static void Init()
