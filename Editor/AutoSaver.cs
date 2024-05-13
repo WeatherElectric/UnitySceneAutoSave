@@ -36,28 +36,10 @@ namespace WeatherElectric.UnitySceneAutoSave
 			}
 			else
 			{
-				var assetsFolder = GetAssetsFolderPath();
-				Debug.Log(assetsFolder);
 				_settings = ScriptableObject.CreateInstance<AutoSaveSettings>();
 				AssetDatabase.CreateAsset(_settings, "Assets/AutoSaveSettings.asset");
 				AssetDatabase.SaveAssets();
 			}
-		}
-		
-		private static string GetAssetsFolderPath()
-		{
-			string arbitraryPath = AssetDatabase.GUIDToAssetPath("0000000000000000");
-			int assetsIndex = arbitraryPath.IndexOf("Assets");
-			if (assetsIndex != -1)
-			{
-				return arbitraryPath.Substring(0, assetsIndex + 6);
-			}
-			else
-			{
-				Debug.LogError("Could not find Assets folder.");
-				return "";
-			}
-			return "";
 		}
 
 
