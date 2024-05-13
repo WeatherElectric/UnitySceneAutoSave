@@ -1,0 +1,16 @@
+{
+    "name": "WeatherElectric.UnitySceneAutoSaver",
+    "rootNamespace": "WeatherElectric.UnitySceneAutoSave",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
