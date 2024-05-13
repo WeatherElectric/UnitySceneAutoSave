@@ -37,7 +37,7 @@ namespace WeatherElectric.UnitySceneAutoSave
 			else
 			{
 				_settings = ScriptableObject.CreateInstance<AutoSaveSettings>();
-				AssetDatabase.CreateAsset(_settings, "Assets/AutoSaveSettings.asset");
+				AssetDatabase.CreateAsset(_settings, ".Assets/AutoSaveSettings.asset");
 				AssetDatabase.SaveAssets();
 			}
 		}
